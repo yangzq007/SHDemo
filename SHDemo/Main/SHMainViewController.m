@@ -77,7 +77,7 @@
 - (void)initData
 {
     _arrContent = @[
-                    @{@"title":@"波浪动画",@"vc":@"SHWaveViewController"}
+                    @{@"title":@"水波动画",@"vc":@"SHWaveViewController"}
                     ];
 }
 
