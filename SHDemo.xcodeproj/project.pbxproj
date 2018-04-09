@@ -15,6 +15,15 @@
 		7B1DDECF1F41B0F1005BCD3B /* SHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1DDECE1F41B0F1005BCD3B /* SHMainViewController.m */; };
 		7B1DDED31F41B21F005BCD3B /* SHWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1DDED21F41B21F005BCD3B /* SHWaveViewController.m */; };
 		7B1DDED61F41B24B005BCD3B /* SHWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1DDED51F41B24B005BCD3B /* SHWaveView.m */; };
+		7B5C69CA207B6F8700FBAC8F /* SHVideoBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5C69C9207B6F8700FBAC8F /* SHVideoBackgroundViewController.m */; };
+		7B5C69CD207B6FB000FBAC8F /* SHVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5C69CC207B6FB000FBAC8F /* SHVideoViewController.m */; };
+		7B5C69D0207B6FC900FBAC8F /* SHGifViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5C69CF207B6FC900FBAC8F /* SHGifViewController.m */; };
+		7B5C69D6207B701400FBAC8F /* water.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7B5C69D2207B701200FBAC8F /* water.mp4 */; };
+		7B5C69D7207B701400FBAC8F /* railway375.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B5C69D3207B701200FBAC8F /* railway375.gif */; };
+		7B5C69D8207B701400FBAC8F /* railway320.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B5C69D4207B701400FBAC8F /* railway320.gif */; };
+		7B5C69D9207B701400FBAC8F /* railway414.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B5C69D5207B701400FBAC8F /* railway414.gif */; };
+		7B5C69DC207B70DB00FBAC8F /* SHColorLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5C69DB207B70DB00FBAC8F /* SHColorLibrary.m */; };
+		7B5C69DE207B72C500FBAC8F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5C69DD207B72C500FBAC8F /* AVFoundation.framework */; };
 		861188CE0C9EF811EB4FA66D /* libPods-SHDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9FB4AAE0C32CABAFEEB60B /* libPods-SHDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +48,19 @@
 		7B1DDED21F41B21F005BCD3B /* SHWaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHWaveViewController.m; sourceTree = "<group>"; };
 		7B1DDED41F41B24B005BCD3B /* SHWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHWaveView.h; sourceTree = "<group>"; };
 		7B1DDED51F41B24B005BCD3B /* SHWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHWaveView.m; sourceTree = "<group>"; };
+		7B5C69C8207B6F8700FBAC8F /* SHVideoBackgroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHVideoBackgroundViewController.h; sourceTree = "<group>"; };
+		7B5C69C9207B6F8700FBAC8F /* SHVideoBackgroundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHVideoBackgroundViewController.m; sourceTree = "<group>"; };
+		7B5C69CB207B6FB000FBAC8F /* SHVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHVideoViewController.h; sourceTree = "<group>"; };
+		7B5C69CC207B6FB000FBAC8F /* SHVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHVideoViewController.m; sourceTree = "<group>"; };
+		7B5C69CE207B6FC900FBAC8F /* SHGifViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHGifViewController.h; sourceTree = "<group>"; };
+		7B5C69CF207B6FC900FBAC8F /* SHGifViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHGifViewController.m; sourceTree = "<group>"; };
+		7B5C69D2207B701200FBAC8F /* water.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = water.mp4; sourceTree = "<group>"; };
+		7B5C69D3207B701200FBAC8F /* railway375.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = railway375.gif; sourceTree = "<group>"; };
+		7B5C69D4207B701400FBAC8F /* railway320.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = railway320.gif; sourceTree = "<group>"; };
+		7B5C69D5207B701400FBAC8F /* railway414.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = railway414.gif; sourceTree = "<group>"; };
+		7B5C69DA207B70DB00FBAC8F /* SHColorLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHColorLibrary.h; sourceTree = "<group>"; };
+		7B5C69DB207B70DB00FBAC8F /* SHColorLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHColorLibrary.m; sourceTree = "<group>"; };
+		7B5C69DD207B72C500FBAC8F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5C69DE207B72C500FBAC8F /* AVFoundation.framework in Frameworks */,
 				861188CE0C9EF811EB4FA66D /* libPods-SHDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,6 +139,7 @@
 		7B1DDEC61F41AE9E005BCD3B /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				7B5C69C7207B6F3C00FBAC8F /* VideoBackground */,
 				7B1DDED01F41B1F4005BCD3B /* Wave */,
 				7B1DDECD1F41B0F1005BCD3B /* SHMainViewController.h */,
 				7B1DDECE1F41B0F1005BCD3B /* SHMainViewController.m */,
@@ -127,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				7B1DDECB1F41B028005BCD3B /* SHGlobalDefine.h */,
+				7B5C69DA207B70DB00FBAC8F /* SHColorLibrary.h */,
+				7B5C69DB207B70DB00FBAC8F /* SHColorLibrary.m */,
 			);
 			path = GlobalDefine;
 			sourceTree = "<group>";
@@ -142,6 +168,31 @@
 			path = Wave;
 			sourceTree = "<group>";
 		};
+		7B5C69C7207B6F3C00FBAC8F /* VideoBackground */ = {
+			isa = PBXGroup;
+			children = (
+				7B5C69D1207B6FF500FBAC8F /* Resources */,
+				7B5C69C8207B6F8700FBAC8F /* SHVideoBackgroundViewController.h */,
+				7B5C69C9207B6F8700FBAC8F /* SHVideoBackgroundViewController.m */,
+				7B5C69CB207B6FB000FBAC8F /* SHVideoViewController.h */,
+				7B5C69CC207B6FB000FBAC8F /* SHVideoViewController.m */,
+				7B5C69CE207B6FC900FBAC8F /* SHGifViewController.h */,
+				7B5C69CF207B6FC900FBAC8F /* SHGifViewController.m */,
+			);
+			path = VideoBackground;
+			sourceTree = "<group>";
+		};
+		7B5C69D1207B6FF500FBAC8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B5C69D4207B701400FBAC8F /* railway320.gif */,
+				7B5C69D3207B701200FBAC8F /* railway375.gif */,
+				7B5C69D5207B701400FBAC8F /* railway414.gif */,
+				7B5C69D2207B701200FBAC8F /* water.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9F661DE85B759795F2DAE0F4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +205,7 @@
 		D7DD152815A22279D8E22A1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B5C69DD207B72C500FBAC8F /* AVFoundation.framework */,
 				1F9FB4AAE0C32CABAFEEB60B /* libPods-SHDemo.a */,
 			);
 			name = Frameworks;
@@ -221,8 +273,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5C69D8207B701400FBAC8F /* railway320.gif in Resources */,
 				7B1DDEBD1F41ADE1005BCD3B /* LaunchScreen.storyboard in Resources */,
 				7B1DDEBA1F41ADE1005BCD3B /* Assets.xcassets in Resources */,
+				7B5C69D7207B701400FBAC8F /* railway375.gif in Resources */,
+				7B5C69D9207B701400FBAC8F /* railway414.gif in Resources */,
+				7B5C69D6207B701400FBAC8F /* water.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +340,12 @@
 				7B1DDED61F41B24B005BCD3B /* SHWaveView.m in Sources */,
 				7B1DDED31F41B21F005BCD3B /* SHWaveViewController.m in Sources */,
 				7B1DDECF1F41B0F1005BCD3B /* SHMainViewController.m in Sources */,
+				7B5C69CD207B6FB000FBAC8F /* SHVideoViewController.m in Sources */,
+				7B5C69DC207B70DB00FBAC8F /* SHColorLibrary.m in Sources */,
 				7B1DDEB21F41ADE1005BCD3B /* AppDelegate.m in Sources */,
 				7B1DDEC91F41AFAE005BCD3B /* SHBaseViewController.m in Sources */,
+				7B5C69CA207B6F8700FBAC8F /* SHVideoBackgroundViewController.m in Sources */,
+				7B5C69D0207B6FC900FBAC8F /* SHGifViewController.m in Sources */,
 				7B1DDEAF1F41ADE1005BCD3B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
