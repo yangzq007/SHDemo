@@ -77,6 +77,7 @@
 - (void)initData
 {
     _arrContent = @[
+                    @{@"title":@"如何绘制好iPhone上的1像素",@"vc":@"SHOnePixelViewController"},
                     @{@"title":@"视频背景",@"vc":@"SHVideoBackgroundViewController"},
                     @{@"title":@"水波动画",@"vc":@"SHWaveViewController"}
                     ];

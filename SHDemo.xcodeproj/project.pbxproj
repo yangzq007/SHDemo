@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45A310DA4007B8B94E694680 /* Pods_SHDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D622D2A7CE12404DD11B122 /* Pods_SHDemo.framework */; };
 		7B1DDEAF1F41ADE1005BCD3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1DDEAE1F41ADE1005BCD3B /* main.m */; };
 		7B1DDEB21F41ADE1005BCD3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1DDEB11F41ADE1005BCD3B /* AppDelegate.m */; };
 		7B1DDEBA1F41ADE1005BCD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1DDEB91F41ADE1005BCD3B /* Assets.xcassets */; };
@@ -24,12 +25,13 @@
 		7B5C69D9207B701400FBAC8F /* railway414.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B5C69D5207B701400FBAC8F /* railway414.gif */; };
 		7B5C69DC207B70DB00FBAC8F /* SHColorLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5C69DB207B70DB00FBAC8F /* SHColorLibrary.m */; };
 		7B5C69DE207B72C500FBAC8F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5C69DD207B72C500FBAC8F /* AVFoundation.framework */; };
-		861188CE0C9EF811EB4FA66D /* libPods-SHDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9FB4AAE0C32CABAFEEB60B /* libPods-SHDemo.a */; };
+		7B9AF76B225349B100454F05 /* SHOnePixelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9AF767225349B100454F05 /* SHOnePixelCell.m */; };
+		7B9AF76C225349B100454F05 /* SHOnePixelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9AF76A225349B100454F05 /* SHOnePixelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F9FB4AAE0C32CABAFEEB60B /* libPods-SHDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		381CDE6BC2E9B43207A4D4E9 /* Pods-SHDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHDemo/Pods-SHDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4D622D2A7CE12404DD11B122 /* Pods_SHDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6327AAB644845704D949DFA0 /* Pods-SHDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHDemo/Pods-SHDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7B1DDEAA1F41ADE1005BCD3B /* SHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1DDEAE1F41ADE1005BCD3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,6 +63,10 @@
 		7B5C69DA207B70DB00FBAC8F /* SHColorLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHColorLibrary.h; sourceTree = "<group>"; };
 		7B5C69DB207B70DB00FBAC8F /* SHColorLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHColorLibrary.m; sourceTree = "<group>"; };
 		7B5C69DD207B72C500FBAC8F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7B9AF767225349B100454F05 /* SHOnePixelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHOnePixelCell.m; sourceTree = "<group>"; };
+		7B9AF768225349B100454F05 /* SHOnePixelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHOnePixelViewController.h; sourceTree = "<group>"; };
+		7B9AF769225349B100454F05 /* SHOnePixelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHOnePixelCell.h; sourceTree = "<group>"; };
+		7B9AF76A225349B100454F05 /* SHOnePixelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHOnePixelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B5C69DE207B72C500FBAC8F /* AVFoundation.framework in Frameworks */,
-				861188CE0C9EF811EB4FA66D /* libPods-SHDemo.a in Frameworks */,
+				45A310DA4007B8B94E694680 /* Pods_SHDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +145,7 @@
 		7B1DDEC61F41AE9E005BCD3B /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				7B9AF7662253493800454F05 /* OnePixel */,
 				7B5C69C7207B6F3C00FBAC8F /* VideoBackground */,
 				7B1DDED01F41B1F4005BCD3B /* Wave */,
 				7B1DDECD1F41B0F1005BCD3B /* SHMainViewController.h */,
@@ -193,6 +200,17 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		7B9AF7662253493800454F05 /* OnePixel */ = {
+			isa = PBXGroup;
+			children = (
+				7B9AF769225349B100454F05 /* SHOnePixelCell.h */,
+				7B9AF767225349B100454F05 /* SHOnePixelCell.m */,
+				7B9AF768225349B100454F05 /* SHOnePixelViewController.h */,
+				7B9AF76A225349B100454F05 /* SHOnePixelViewController.m */,
+			);
+			path = OnePixel;
+			sourceTree = "<group>";
+		};
 		9F661DE85B759795F2DAE0F4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,7 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				7B5C69DD207B72C500FBAC8F /* AVFoundation.framework */,
-				1F9FB4AAE0C32CABAFEEB60B /* libPods-SHDemo.a */,
+				4D622D2A7CE12404DD11B122 /* Pods_SHDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,7 +241,6 @@
 				7B1DDEA71F41ADE1005BCD3B /* Frameworks */,
 				7B1DDEA81F41ADE1005BCD3B /* Resources */,
 				06BB7C08FAD6A84B788898C7 /* [CP] Embed Pods Frameworks */,
-				2EAE7EFA2D886430BDC078BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,28 +308,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHDemo/Pods-SHDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHDemo/Pods-SHDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2EAE7EFA2D886430BDC078BA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHDemo/Pods-SHDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SHDemo/Pods-SHDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		91BADDB2CDDAF6A377257F55 /* [CP] Check Pods Manifest.lock */ = {
@@ -321,13 +326,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -339,10 +347,12 @@
 			files = (
 				7B1DDED61F41B24B005BCD3B /* SHWaveView.m in Sources */,
 				7B1DDED31F41B21F005BCD3B /* SHWaveViewController.m in Sources */,
+				7B9AF76B225349B100454F05 /* SHOnePixelCell.m in Sources */,
 				7B1DDECF1F41B0F1005BCD3B /* SHMainViewController.m in Sources */,
 				7B5C69CD207B6FB000FBAC8F /* SHVideoViewController.m in Sources */,
 				7B5C69DC207B70DB00FBAC8F /* SHColorLibrary.m in Sources */,
 				7B1DDEB21F41ADE1005BCD3B /* AppDelegate.m in Sources */,
+				7B9AF76C225349B100454F05 /* SHOnePixelViewController.m in Sources */,
 				7B1DDEC91F41AFAE005BCD3B /* SHBaseViewController.m in Sources */,
 				7B5C69CA207B6F8700FBAC8F /* SHVideoBackgroundViewController.m in Sources */,
 				7B5C69D0207B6FC900FBAC8F /* SHGifViewController.m in Sources */,
